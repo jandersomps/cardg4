@@ -4,17 +4,20 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
-       
-    background-image: url(./img/g4s.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+
+.clientes h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#ff0000;
+   
 }
 .card-body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; 
+    min-height: 50vh; 
 }
 .container{
     position: relative;
